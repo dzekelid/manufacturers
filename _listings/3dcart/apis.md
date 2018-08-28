@@ -10,11 +10,253 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-
 x-kinRank: "7"
 x-alexaRank: "78099"
 tags: Manufacturers
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: _3dCartWebAPI - Get all Manufacturers
+  x-api-slug: 3dcartwebapiv1manufacturers-get
+  description: Get all manufacturers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturers-get-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple manufacturers in the
+    database. No URL parameters should be included.
+  x-api-slug: 3dcartwebapiv1manufacturers-put
+  description: This method is used to update multiple manufacturers in the database.
+    no url parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturers-put-openapi.md
+- name: _3dCartWebAPI - Adds a new manufacturer to the system
+  x-api-slug: 3dcartwebapiv1manufacturers-post
+  description: Adds a new manufacturer to the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturers-post-openapi.md
+- name: _3dCartWebAPI - Get a Manufacturer
+  x-api-slug: 3dcartwebapiv1manufacturersid-get
+  description: Get a manufacturer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersid-get-openapi.md
+- name: _3dCartWebAPI - Deletes a Manufacturer in the system
+  x-api-slug: 3dcartwebapiv1manufacturersid-delete
+  description: Deletes a manufacturer in the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersid-delete-openapi.md
+- name: _3dCartWebAPI - This method is used to update a single manufacturer record
+    in the database. The {manufacturerid} parameter specifies which manufacturer record
+    to update.
+  x-api-slug: 3dcartwebapiv1manufacturersmanufacturerid-put
+  description: This method is used to update a single manufacturer record in the database.
+    the {manufacturerid} parameter specifies which manufacturer record to update..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufacturerid-put-openapi.md
+- name: _3dCartWebAPI - Get all products from a specific manufacturer
+  x-api-slug: 3dcartwebapiv1manufacturersmanufactureridproducts-get
+  description: Get all products from a specific manufacturer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufactureridproducts-get-openapi.md
+- name: _3dCartWebAPI - This method is used to update a single manufacturer record
+    in the database. The {manufacturerid} parameter specifies which manufacturer record
+    to update.
+  x-api-slug: 3dcartwebapiv1manufacturersmanufacturerid-put
+  description: This method is used to update a single manufacturer record in the database.
+    the {manufacturerid} parameter specifies which manufacturer record to update..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufacturerid-put-openapi.md
+- name: _3dCartWebAPI - Adds a new manufacturer to the system
+  x-api-slug: 3dcartwebapiv1manufacturers-post
+  description: Adds a new manufacturer to the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturers-post-openapi.md
+- name: _3dCartWebAPI - Get a Manufacturer
+  x-api-slug: 3dcartwebapiv1manufacturersid-get
+  description: Get a manufacturer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersid-get-openapi.md
+- name: _3dCartWebAPI - Deletes a Manufacturer in the system
+  x-api-slug: 3dcartwebapiv1manufacturersid-delete
+  description: Deletes a manufacturer in the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersid-delete-openapi.md
+- name: _3dCartWebAPI - This method is used to update a single manufacturer record
+    in the database. The {manufacturerid} parameter specifies which manufacturer record
+    to update.
+  x-api-slug: 3dcartwebapiv1manufacturersmanufacturerid-put
+  description: This method is used to update a single manufacturer record in the database.
+    the {manufacturerid} parameter specifies which manufacturer record to update..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufacturerid-put-openapi.md
+- name: _3dCartWebAPI - Get all products from a specific manufacturer
+  x-api-slug: 3dcartwebapiv1manufacturersmanufactureridproducts-get
+  description: Get all products from a specific manufacturer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufactureridproducts-get-openapi.md
+- name: _3dCartWebAPI - Get all Manufacturers
+  x-api-slug: 3dcartwebapiv1manufacturers-get
+  description: Get all manufacturers.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturers-get-openapi.md
+- name: _3dCartWebAPI - This method is used to update multiple manufacturers in the
+    database. No URL parameters should be included.
+  x-api-slug: 3dcartwebapiv1manufacturers-put
+  description: This method is used to update multiple manufacturers in the database.
+    no url parameters should be included..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturers-put-openapi.md
+- name: _3dCartWebAPI - This method is used to update a single manufacturer record
+    in the database. The {manufacturerid} parameter specifies which manufacturer record
+    to update.
+  x-api-slug: 3dcartwebapiv1manufacturersmanufacturerid-put
+  description: This method is used to update a single manufacturer record in the database.
+    the {manufacturerid} parameter specifies which manufacturer record to update..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufacturerid-put-openapi.md
+- name: _3dCartWebAPI - Adds a new manufacturer to the system
+  x-api-slug: 3dcartwebapiv1manufacturers-post
+  description: Adds a new manufacturer to the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturers-post-openapi.md
+- name: _3dCartWebAPI - Get a Manufacturer
+  x-api-slug: 3dcartwebapiv1manufacturersid-get
+  description: Get a manufacturer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersid-get-openapi.md
+- name: _3dCartWebAPI - Deletes a Manufacturer in the system
+  x-api-slug: 3dcartwebapiv1manufacturersid-delete
+  description: Deletes a manufacturer in the system.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersid-delete-openapi.md
+- name: _3dCartWebAPI - This method is used to update a single manufacturer record
+    in the database. The {manufacturerid} parameter specifies which manufacturer record
+    to update.
+  x-api-slug: 3dcartwebapiv1manufacturersmanufacturerid-put
+  description: This method is used to update a single manufacturer record in the database.
+    the {manufacturerid} parameter specifies which manufacturer record to update..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufacturerid-put-openapi.md
+- name: _3dCartWebAPI - Get all products from a specific manufacturer
+  x-api-slug: 3dcartwebapiv1manufacturersmanufactureridproducts-get
+  description: Get all products from a specific manufacturer.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufactureridproducts-get-openapi.md
+- name: _3dCartWebAPI - This method is used to update a single manufacturer record
+    in the database. The {manufacturerid} parameter specifies which manufacturer record
+    to update.
+  x-api-slug: 3dcartwebapiv1manufacturersmanufacturerid-put
+  description: This method is used to update a single manufacturer record in the database.
+    the {manufacturerid} parameter specifies which manufacturer record to update..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg
+  humanURL: http://www.3dcart.com
+  baseURL: https://apirest.3dcart.com//
+  tags: SaaS, Technology, internet, Commerce, Shopping Cart, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/3dcart/3dcartwebapiv1manufacturersmanufacturerid-put-openapi.md
 x-common:
 - type: x-github
   url: https://github.com/3dcart

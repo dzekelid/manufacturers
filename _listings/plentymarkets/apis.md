@@ -11,8 +11,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Manufacturers
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/apis.md
 specificationVersion: "0.14"
 apis:
@@ -127,6 +127,54 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-put-openapi.md
+- name: plentymarkets REST-API - Update a manufacturer
+  x-api-slug: restitemsmanufacturersid-put
+  description: Updates a manufacturer. The ID of the manufacturer must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-put-openapi.md
+- name: plentymarkets REST-API - Get a manufacturer
+  x-api-slug: restitemsmanufacturersid-get
+  description: Gets a manufacturer. The ID of the manufacturer must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-get-openapi.md
+- name: plentymarkets REST-API - Delete a manufacturer
+  x-api-slug: restitemsmanufacturersid-delete
+  description: Deletes a manufacturer. The ID of the manufacturer must be specified.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturersid-delete-openapi.md
+- name: plentymarkets REST-API - Create a manufacturer
+  x-api-slug: restitemsmanufacturers-post
+  description: Creates a manufacturer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png
+  humanURL: http://www.plentymarkets.co.uk
+  baseURL: https://example.com//
+  tags: ERP, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturers-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/manufacturers/master/_listings/plentymarkets/restitemsmanufacturers-post-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.plentymarkets.co.uk/?ActionCall=WebActionRSS&rrss_id=1
